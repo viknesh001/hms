@@ -244,8 +244,8 @@ border: solid 1px #b7e5fe;
                                           
                                             
                                             
-                                            <div class="card-header-right" style="display: flex;padding: 8px;" >
-                                                  <input type="search"  id="searchbox" class="form-control form-control-sm" placeholder="Search" >
+                                            <div class="card-header-right" style="display: flex;width: 95%;padding: 8px;" >
+                                                  <input type="search "  id="searchbox" class="form-control form-control-sm" placeholder="Search Hotels Name , Loction ,Area.." >
                                                 <div class="btn-group card-option">
                                                     <button type="button" class="btn dropdown-toggle btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         <i class="feather icon-more-horizontal"></i>
