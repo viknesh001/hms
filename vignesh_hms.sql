@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 02, 2019 at 09:42 AM
+-- Generation Time: Nov 02, 2019 at 10:19 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.2.23
 
@@ -88,7 +88,17 @@ CREATE TABLE `hotels` (
 --
 
 INSERT INTO `hotels` (`id`, `hotel_name`, `address`, `hotel_image`, `room_type`, `area_id`, `location_id`, `rating`, `price`) VALUES
-(1, 'OYO 6918 Manorama Guest House', '2nd floor, gala no 203-208, Manish shopping, centre, jp road, , 400053, Mumbai', 'img1.png', 'Single', 16, 4, 4, 400);
+(1, 'OYO 6918 Manorama Guest House', '2nd floor, gala no 203-208, Manish shopping, centre, jp road, , 400053, Mumbai', 'img1.png', 'Single', 16, 4, 4, 400),
+(2, 'FabHotel Laaiba Residency J', 'Sani Tower A Wing, Opp. Dewan Center, S.V. Road,', 'img2.png', 'Double', 1, 1, 4, 700),
+(3, '\r\nThe St Regis Mumbai', ' The St Regis Mumbai new road', 'img3.png', 'Single', 2, 1, 3, 400),
+(4, 'Leela Palace kings', ' Palace kings road', 'img8.png', 'Single', 8, 2, 8, 550),
+(5, 'THE PARK', 'park road VSpuran', 'img5.png', 'Double', 12, 3, 12, 990),
+(6, 'Robert Downey PARK', 'Downey street', 'img6.png', 'Single', 19, 4, 19, 333),
+(7, 'OYO THE PARTY', 'No:22 new street PARK town', 'img7.png', 'Double', 23, 5, 23, 240),
+(8, 'hotel SAVERA', 'Saver road the park road', 'img8.png', 'Double', 17, 4, 17, 530),
+(9, 'QUEENS LANDING', 'The kings landing ', 'img10.png', 'Single', 18, 4, 18, 600),
+(10, 'THE new WEE', '23 new park town', 'img3.png', 'Double', 13, 3, 0, 0),
+(11, 'ARYA STARK \r\n', '55 tailors road', 'img9.png', 'Double', 20, 4, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -148,7 +158,7 @@ ALTER TABLE `areas`
 -- AUTO_INCREMENT for table `hotels`
 --
 ALTER TABLE `hotels`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `location`
