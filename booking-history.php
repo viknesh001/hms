@@ -1,5 +1,5 @@
 <?php
-include("models/booking.php");
+include("models/booking-history.php");
 $bookinghistory = new BookingHistory();
 $listings       = $bookinghistory->doGetBookingHistory();
 //print $result;
